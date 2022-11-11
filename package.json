@@ -9,13 +9,18 @@
       "react-app"
     ]
   },
+  "files": [
+    "dist"
+  ],
   "installConfig": {
     "pnp": true
   },
   "scripts": {
     "audit": "yarn dlx audit-ci --config ./audit-ci.json",
     "build": "yarn clean && tsc",
-    "clean": "rm -r dist",
+    "checks": "yarn audit && yarn lint && yarn coverage",
+    "ci": "yarn checks && yarn build",
+    "clean": "rimraf dist",
     "coverage": "CI=true yarn test --coverage",
     "lint": "eslint src",
     "test": "vitest"
@@ -34,6 +39,7 @@
     "jsdom": "^20.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
     "typescript": "^4.8.4",
     "vite": "^3.2.3",
     "vitest": "^0.25.1"

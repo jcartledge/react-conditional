@@ -1574,6 +1574,7 @@ __metadata:
     jsdom: ^20.0.2
     react: ^18.2.0
     react-dom: ^18.2.0
+    rimraf: ^3.0.2
     typescript: ^4.8.4
     vite: ^3.2.3
     vitest: ^0.25.1

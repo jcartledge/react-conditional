@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsdom", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:20.0.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:18.2.0"],\
+            ["rimraf", "npm:3.0.2"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
             ["vite", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3"],\
             ["vitest", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:0.25.1"]\
@@ -2731,6 +2732,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsdom", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:20.0.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:18.2.0"],\
+            ["rimraf", "npm:3.0.2"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
             ["vite", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3"],\
             ["vitest", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:0.25.1"]\
