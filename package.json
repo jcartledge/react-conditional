@@ -13,6 +13,7 @@
     "pnp": true
   },
   "scripts": {
+    "audit": "yarn dlx audit-ci --config ./audit-ci.json",
     "build": "yarn clean && tsc",
     "clean": "rm -r dist",
     "coverage": "CI=true yarn test --coverage",
