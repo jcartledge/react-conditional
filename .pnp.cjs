@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
+            ["vite", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3"],\
             ["vitest", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:0.25.1"]\
           ],\
           "linkType": "SOFT"\
@@ -2729,6 +2730,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
+            ["vite", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3"],\
             ["vitest", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:0.25.1"]\
           ],\
           "linkType": "SOFT"\
@@ -3423,7 +3425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/vite", null],\
             ["magic-string", "npm:0.26.7"],\
             ["react-refresh", "npm:0.14.0"],\
-            ["vite", null]\
+            ["vite", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3"]\
           ],\
           "packagePeers": [\
             "@types/vite",\
@@ -8382,6 +8384,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:38e3226feaac730b261694b6b157be578491df291a478d31f55e20df887d0890ed128abe548c6c2da87c6e6e865600c68c985d5f6056da2db3f228d079f41d1a#npm:3.2.3"],\
             ["@types/less", null],\
             ["@types/node", "npm:18.11.9"],\
+            ["@types/sass", null],\
+            ["@types/stylus", null],\
+            ["@types/sugarss", null],\
+            ["@types/terser", null],\
+            ["esbuild", "npm:0.15.13"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["less", null],\
+            ["postcss", "npm:8.4.19"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["rollup", "npm:2.79.1"],\
+            ["sass", null],\
+            ["stylus", null],\
+            ["sugarss", null],\
+            ["terser", null]\
+          ],\
+          "packagePeers": [\
+            "@types/less",\
+            "@types/node",\
+            "@types/sass",\
+            "@types/stylus",\
+            "@types/sugarss",\
+            "@types/terser",\
+            "less",\
+            "sass",\
+            "stylus",\
+            "sugarss",\
+            "terser"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/vite-virtual-53f62d81ba/0/cache/vite-npm-3.2.3-34712b84f7-3c7c618f7f.zip/node_modules/vite/",\
+          "packageDependencies": [\
+            ["vite", "virtual:55861c7704375983534220e70399cb9665b9f167cd33c8ca0f5062e0d7cddee11c9d15cdacfd34d19f1d3f69c70761c53458fdb8887a5509c4f2440b7d90f4db#npm:3.2.3"],\
+            ["@types/less", null],\
+            ["@types/node", null],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
