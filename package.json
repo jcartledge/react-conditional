@@ -1,0 +1,15 @@
+{
+  "name": "@jcartledge/react-conditional",
+  "version": "0.0.1",
+  "description": "Simple conditional component for React.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "author": "jcartledge@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
