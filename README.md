@@ -2,7 +2,7 @@
 
 Simple utility component for React that only renders its children when the boolean predicate prop is true.
 
-```
+```TSX
 describe("Conditional", () => {
   it("renders children if the predicate is true", () => {
     render(
