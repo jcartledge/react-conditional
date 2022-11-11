@@ -23,6 +23,7 @@
     "clean": "rimraf dist",
     "coverage": "CI=true yarn test --coverage",
     "lint": "eslint src",
+    "publish": "yarn pack",
     "test": "vitest"
   },
   "author": "jcartledge@gmail.com",
