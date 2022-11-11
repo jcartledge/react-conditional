@@ -1565,6 +1565,7 @@ __metadata:
   dependencies:
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
+    "@types/react": ^18.0.25
     "@vitejs/plugin-react": ^2.2.0
     "@vitest/coverage-c8": ^0.25.1
     c8: ^7.12.0
@@ -1889,7 +1890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^18.0.25":
   version: 18.0.25
   resolution: "@types/react@npm:18.0.25"
   dependencies:

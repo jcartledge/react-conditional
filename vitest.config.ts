@@ -8,7 +8,7 @@ export default defineConfig({
     setupFiles: "./src/test/setup.ts",
     coverage: {
       all: true,
-      exclude: [],
+      exclude: [".pnp.*"],
       excludeNodeModules: true,
       reporter: ["text", "json", "html"],
       src: ["./src"],
