@@ -23,8 +23,6 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "target": "es6",
-    "types": ["vite/client"],
-    "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true
   },
   "exclude": ["src/**test**"],
