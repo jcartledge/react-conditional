@@ -1,14 +1,5 @@
 fileignoreconfig:
   - filename: yarn.lock
-    checksum: f58a47ac852d0ca30a64bb4c2b4ba12ec0bc8ab1696b8ac85e240fc606aa1642
-    ignore_detectors: []
-  - filename: .pnp.cjs
-    checksum: 2a8bc436bc24a821da8f5ae81ab9ac8f9d8d9c3f0bd4fee9bffd5fd8052bc433
-    ignore_detectors: []
-  - filename: .yarn/sdks/typescript/lib/tsserver.js
-    checksum: 2a716a6021be8153a30b474a8b34dc4243786a2daca5a3882a519e4a78f24949
-    ignore_detectors: []
-  - filename: .yarn/sdks/typescript/lib/tsserverlibrary.js
-    checksum: d4fe1f0b8e4f0642f3ed6b328b6c0104aeb0bdf42077e51e6d4045c662d905c7
+    checksum: 17a9c17b2ce8213579798a1ad68ed7fb47db4e848451dce32565e826db735401
     ignore_detectors: []
 scopeconfig: []

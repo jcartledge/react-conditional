@@ -12,9 +12,6 @@
   "files": [
     "dist"
   ],
-  "installConfig": {
-    "pnp": true
-  },
   "scripts": {
     "audit": "yarn dlx audit-ci --config ./audit-ci.json",
     "build": "yarn clean && tsc",
