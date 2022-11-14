@@ -16,8 +16,18 @@ jobs:
       - uses: wagoid/commitlint-github-action@v5
 
   ci:
+    needs: commitlint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build/test/package
         run: yarn && yarn ci
+
+  release-pr:
+    needs: ci
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: release-please-action
