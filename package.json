@@ -20,6 +20,7 @@
     "clean": "rimraf dist",
     "coverage": "CI=true yarn test --coverage",
     "lint": "eslint src",
+    "prepare": "husky install",
     "publish": "yarn pack",
     "test": "vitest"
   },
