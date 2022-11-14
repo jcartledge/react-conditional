@@ -1,5 +1,7 @@
 # React conditional
 
+[![CI](https://github.com/jcartledge/react-conditional/actions/workflows/main.yml/badge.svg)](https://github.com/jcartledge/react-conditional/actions/workflows/main.yml)
+
 Simple utility component for React that only renders its children when the boolean predicate prop is true.
 
 ```TSX
