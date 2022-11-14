@@ -1,6 +1,6 @@
 {
   "name": "@jcartledge/react-conditional",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple conditional component for React.",
   "main": "dist/Conditional.js",
   "types": "dist/Conditional.d.ts",
