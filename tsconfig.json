@@ -25,6 +25,5 @@
     "target": "es6",
     "noFallthroughCasesInSwitch": true
   },
-  "exclude": ["src/**test**"],
   "include": ["src"]
 }
