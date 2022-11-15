@@ -32,20 +32,3 @@ jobs:
         with:
           release-type: node
           package-name: "@jcartledge/react-conditional"
-
-      - uses: actions/checkout@v2
-        if: ${{ steps.release.outputs.release_created }}
-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "16.x"
-          registry-url: "https://registry.npmjs.org"
-        if: ${{ steps.release.outputs.release_created }}
-
-      - run: yarn && yarn ci
-        if: ${{ steps.release.outputs.release_created }}
-
-      - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        if: ${{ steps.release.outputs.release_created }}
