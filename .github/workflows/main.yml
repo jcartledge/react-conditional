@@ -19,18 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: audit-ci
         run: yarn && yarn check-deps
 
   lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Build/test/eslint
         run: yarn && yarn lint
 
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: test
         run: yarn && yarn coverage
 
   build:
@@ -38,6 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: build
         run: yarn && yarn build
 
   release-pr:
