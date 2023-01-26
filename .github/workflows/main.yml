@@ -15,15 +15,37 @@ jobs:
           fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v5
 
-  ci:
+  audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build/test/package
-        run: yarn && yarn ci
+        run: yarn && yarn audit
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build/test/package
+        run: yarn && yarn lint
+  
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build/test/package
+        run: yarn && yarn coverage
+  
+  build:
+    needs: [commitlint, audit, lint, test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build/test/package
+        run: yarn && yarn build
 
   release-pr:
-    needs: [ci, commitlint]
+    needs: [build]
     runs-on: ubuntu-latest
 
     steps:
