@@ -31,6 +31,7 @@ jobs:
         with:
           release-type: node
           package-name: "@jcartledge/react-conditional"
+          token: ${{secrets.PR_RELEASE_TOKEN}}
 
       - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.release_created }}
