@@ -70,7 +70,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
 
-  release-pr:
+  release-please:
     needs: [build]
     runs-on: ubuntu-latest
     steps:
