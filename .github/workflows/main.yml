@@ -44,27 +44,11 @@ jobs:
       - name: build
         run: yarn && yarn build
 
-  publish-docs:
-    needs: [commitlint, check-deps, lint, test]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 19
-      - name: Build docs
-        run: yarn && yarn docs
-      - uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-
   release-please:
     needs: [build]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -84,3 +68,11 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{steps.release.outputs.release_created}}
+      - name: Build docs
+        run: yarn docs
+        if: ${{steps.release.outputs.release_created}}
+      - uses: peaceiris/actions-gh-pages@v3
+        if: ${{steps.release.outputs.release_created}}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
