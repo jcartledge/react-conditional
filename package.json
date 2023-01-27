@@ -3,6 +3,7 @@
   "repository": "github:jcartledge/react-conditional",
   "version": "1.0.9",
   "description": "Simple conditional component for React.",
+  "homepage": "https://jcartledge.github.io/react-conditional/",
   "main": "dist/Conditional.js",
   "types": "dist/Conditional.d.ts",
   "eslintConfig": {
