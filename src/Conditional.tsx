@@ -1,4 +1,4 @@
-type ConditionalProps = React.PropsWithChildren<{ predicate: boolean }>;
+export type ConditionalProps = React.PropsWithChildren<{ predicate: boolean }>;
 
 export const Conditional: React.FC<ConditionalProps> = ({
   children,
