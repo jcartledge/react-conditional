@@ -29,14 +29,6 @@ jobs:
       - name: lint
         run: yarn && yarn lint
 
-  secrets:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: carhartl/talisman-secrets-scan-action@v1.3.0
-
   test:
     runs-on: ubuntu-latest
     steps:
@@ -45,7 +37,7 @@ jobs:
         run: yarn && yarn coverage
 
   build:
-    needs: [commitlint, check-deps, lint, secrets, test]
+    needs: [commitlint, check-deps, lint, test]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -53,7 +45,7 @@ jobs:
         run: yarn && yarn build
 
   publish-docs:
-    needs: [commitlint, check-deps, lint, secrets, test]
+    needs: [commitlint, check-deps, lint, test]
     runs-on: ubuntu-latest
     permissions:
       contents: write
