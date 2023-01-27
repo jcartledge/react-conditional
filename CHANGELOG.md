@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/jcartledge/react-conditional/compare/v1.0.7...v1.0.8) (2023-01-27)
+
+
+### Bug Fixes
+
+* **release:** store and restore build artifact ([c0149e1](https://github.com/jcartledge/react-conditional/commit/c0149e11dde94a96e63b6ccc6a824da77cc1bbe0))
+
 ## [1.0.7](https://github.com/jcartledge/react-conditional/compare/v1.0.6...v1.0.7) (2023-01-27)
 
 
