@@ -80,7 +80,7 @@ jobs:
           node-version: 19
           registry-url: "https://registry.npmjs.org"
         if: ${{steps.release.outputs.release_created}}
-      - run: npm publish --access public
+      - run: yarn && yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{steps.release.outputs.release_created}}

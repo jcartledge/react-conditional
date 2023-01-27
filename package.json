@@ -21,7 +21,6 @@
     "docs": "typedoc --out docs src/Conditional.tsx",
     "lint": "eslint src",
     "prepare": "husky install",
-    "publish": "yarn pack",
     "test": "vitest"
   },
   "author": "jcartledge@gmail.com",
