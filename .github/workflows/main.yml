@@ -45,7 +45,7 @@ jobs:
         run: yarn && yarn coverage
 
   build:
-    needs: [commitlint, audit, lint, secrets, test]
+    needs: [commitlint, check-deps, lint, secrets, test]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -53,7 +53,7 @@ jobs:
         run: yarn && yarn build
 
   publish-docs:
-    needs: [commitlint, audit, lint, secrets, test]
+    needs: [commitlint, check-deps, lint, secrets, test]
     runs-on: ubuntu-latest
     permissions:
       contents: write
