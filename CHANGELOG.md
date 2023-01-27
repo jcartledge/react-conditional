@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/jcartledge/react-conditional/compare/v1.0.6...v1.0.7) (2023-01-27)
+
+
+### Bug Fixes
+
+* trigger release ([f058bb9](https://github.com/jcartledge/react-conditional/commit/f058bb94a5c6e9a06c2c75768b220f65d1da9e2f))
+
 ## [1.0.6](https://github.com/jcartledge/react-conditional/compare/v1.0.5...v1.0.6) (2023-01-27)
 
 
