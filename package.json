@@ -1,7 +1,7 @@
 {
   "name": "@jcartledge/react-conditional",
   "repository": "github:jcartledge/react-conditional",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple conditional component for React.",
   "main": "dist/Conditional.js",
   "types": "dist/Conditional.d.ts",
