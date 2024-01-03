@@ -15,12 +15,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn clean && tsc",
-    "check-deps": "yarn audit-ci --config ./audit-ci.json -o=text",
+    "build": "pnpm clean && tsc",
+    "check-deps": "pnpm audit",
     "clean": "rimraf dist",
-    "coverage": "CI=true yarn test --coverage",
+    "coverage": "CI=true pnpm test --coverage",
     "docs": "typedoc --out docs src/Conditional.tsx",
     "lint": "eslint src",
+    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "test": "vitest"
   },
@@ -47,5 +48,14 @@
     "typescript": "5.2.2",
     "vite": "4.4.11",
     "vitest": "0.34.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss@<8.4.31": ">=8.4.31",
+      "semver@<5.7.2": ">=5.7.2",
+      "vite@>=4.4.0 <4.4.12": ">=4.4.12",
+      "@babel/traverse@<7.23.2": ">=7.23.2",
+      "@adobe/css-tools@<4.3.2": ">=4.3.2"
+    }
   }
 }
