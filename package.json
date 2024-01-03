@@ -18,7 +18,7 @@
     "build": "pnpm clean && tsc",
     "check-deps": "pnpm audit",
     "clean": "rimraf dist",
-    "coverage": "CI=true pnpm test --coverage",
+    "coverage": "CI=true vitest --coverage",
     "docs": "typedoc --out docs src/Conditional.tsx",
     "lint": "eslint src",
     "preinstall": "npx only-allow pnpm",
