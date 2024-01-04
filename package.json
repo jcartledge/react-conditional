@@ -28,8 +28,8 @@
   "author": "jcartledge@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "17.8.1",
-    "@commitlint/config-conventional": "17.8.1",
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
     "@testing-library/jest-dom": "6.1.4",
     "@testing-library/react": "14.0.0",
     "@types/react": "18.2.28",
