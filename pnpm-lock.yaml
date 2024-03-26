@@ -25,8 +25,8 @@ devDependencies:
     specifier: 14.2.2
     version: 14.2.2(react-dom@18.2.0)(react@18.2.0)
   '@types/react':
-    specifier: 18.2.71
-    version: 18.2.71
+    specifier: 18.2.72
+    version: 18.2.72
   '@vitejs/plugin-react':
     specifier: 4.2.1
     version: 4.2.1(vite@5.2.6)
@@ -2418,19 +2418,14 @@ packages:
   /@types/react-dom@18.2.6:
     resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
     dependencies:
-      '@types/react': 18.2.71
+      '@types/react': 18.2.72
     dev: true
 
-  /@types/react@18.2.71:
-    resolution: {integrity: sha512-PxEsB9OjmQeYGffoWnYAd/r5FiJuUw2niFQHPc2v2idwh8wGPkkYzOHuinNJJY6NZqfoTCiOIizDOz38gYNsyw==}
+  /@types/react@18.2.72:
+    resolution: {integrity: sha512-/e7GWxGzXQF7OJAua7UAYqYi/4VpXEfbGtmYQcAQwP3SjjjAXfybTf/JK5S+SaetB/ChXl8Y2g1hCsj7jDXxcg==}
     dependencies:
       '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.3
       csstype: 3.1.2
-    dev: true
-
-  /@types/scheduler@0.16.3:
-    resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
   /@types/semver@7.5.0:
