@@ -28,7 +28,7 @@
   "author": "jcartledge@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@testing-library/jest-dom": "6.4.2",
     "@testing-library/react": "15.0.2",
