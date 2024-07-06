@@ -37,8 +37,8 @@ importers:
         specifier: 1.6.0
         version: 1.6.0(vitest@1.6.0(@types/node@20.5.1)(jsdom@24.1.0))
       audit-ci:
-        specifier: 7.0.1
-        version: 7.0.1
+        specifier: 7.1.0
+        version: 7.1.0
       c8:
         specifier: 10.1.2
         version: 10.1.2
@@ -1477,8 +1477,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  audit-ci@7.0.1:
-    resolution: {integrity: sha512-NAZuQYyZHmtrNGpS4qfUp8nFvB+6UdfSOg7NUcsyvuDVfulXH3lpnN2PcXOUj7Jr3epAoQ6BCpXmjMODC8SBgQ==}
+  audit-ci@7.1.0:
+    resolution: {integrity: sha512-PjjEejlST57S/aDbeWLic0glJ8CNl/ekY3kfGFPMrPkmuaYaDKcMH0F9x9yS9Vp6URhuefSCubl/G0Y2r6oP0g==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -4911,7 +4911,7 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  audit-ci@7.0.1:
+  audit-ci@7.1.0:
     dependencies:
       cross-spawn: 7.0.3
       escape-string-regexp: 4.0.0
