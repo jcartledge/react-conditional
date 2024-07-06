@@ -35,7 +35,7 @@
     "@types/react": "18.3.3",
     "@vitejs/plugin-react": "4.3.1",
     "@vitest/coverage-v8": "1.6.0",
-    "audit-ci": "7.0.1",
+    "audit-ci": "7.1.0",
     "c8": "10.1.2",
     "eslint": "8.57.0",
     "eslint-config-react-app": "7.0.1",
