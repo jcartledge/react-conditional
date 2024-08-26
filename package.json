@@ -6,11 +6,6 @@
   "homepage": "https://jcartledge.github.io/react-conditional/",
   "main": "dist/Conditional.js",
   "types": "dist/Conditional.d.ts",
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
   "files": [
     "dist"
   ],
@@ -30,6 +25,8 @@
   "devDependencies": {
     "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.1",
     "@testing-library/jest-dom": "6.5.0",
     "@testing-library/react": "16.0.0",
     "@types/react": "18.3.4",
