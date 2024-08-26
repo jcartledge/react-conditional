@@ -22,7 +22,7 @@
     "docs": "typedoc --out docs src/Conditional.tsx",
     "lint": "eslint src",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
+    "prepare": "husky",
     "test": "vitest"
   },
   "author": "jcartledge@gmail.com",
@@ -51,11 +51,9 @@
   },
   "pnpm": {
     "overrides": {
-      "postcss@<8.4.31": ">=8.4.31",
-      "semver@<5.7.2": ">=5.7.2",
-      "vite@>=4.4.0 <4.4.12": ">=4.4.12",
-      "@babel/traverse@<7.23.2": ">=7.23.2",
-      "@adobe/css-tools@<4.3.2": ">=4.3.2"
+      "braces@<3.0.3": ">=3.0.3",
+      "micromatch@<4.0.8": ">=4.0.8"
     }
-  }
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
