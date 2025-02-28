@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/jcartledge/react-conditional/compare/v1.0.0...v1.0.1) (2025-02-28)
+
+
+### Bug Fixes
+
+* **release:** fetch build artifact in correct location ([47c2a32](https://github.com/jcartledge/react-conditional/commit/47c2a32ae33d0c3c5aa98c5254d6d807376b52f3))
+* **release:** store and restore build artifact ([c0149e1](https://github.com/jcartledge/react-conditional/commit/c0149e11dde94a96e63b6ccc6a824da77cc1bbe0))
+
 ## 1.0.0 (2024-11-02)
 
 
