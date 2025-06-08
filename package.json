@@ -55,5 +55,5 @@
       "micromatch@<4.0.8": ">=4.0.8"
     }
   },
-  "packageManager": "pnpm@10.11.1"
+  "packageManager": "pnpm@10.12.1"
 }
