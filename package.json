@@ -23,8 +23,8 @@
   "author": "jcartledge@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
+    "@commitlint/cli": "20.0.0",
+    "@commitlint/config-conventional": "20.0.0",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.19.0",
     "@testing-library/jest-dom": "6.8.0",
