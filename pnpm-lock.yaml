@@ -35,7 +35,7 @@ importers:
         version: 19.2.6
       '@vitejs/plugin-react':
         specifier: 5.1.1
-        version: 5.1.1(vite@7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))
+        version: 5.1.1(vite@7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))
       '@vitest/coverage-v8':
         specifier: 4.0.10
         version: 4.0.10(vitest@4.0.10(@types/node@22.5.0)(jiti@2.4.1)(jsdom@27.2.0(postcss@8.5.6))(yaml@2.8.1))
@@ -82,8 +82,8 @@ importers:
         specifier: ^8.23.0
         version: 8.47.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
       vite:
-        specifier: 7.2.2
-        version: 7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
+        specifier: 7.2.4
+        version: 7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
       vitest:
         specifier: 4.0.10
         version: 4.0.10(@types/node@22.5.0)(jiti@2.4.1)(jsdom@27.2.0(postcss@8.5.6))(yaml@2.8.1)
@@ -3463,8 +3463,8 @@ packages:
     resolution: {integrity: sha512-kiGUalWN+rgBJ/1OHZsBtU4rXZOfj/7rKQxULKlIzwzQSvMJUUNgPwJEEh7gU6xEVxC0ahoOBvN2YI8GH6FNgA==}
     engines: {node: '>=10.12.0'}
 
-  vite@7.2.2:
-    resolution: {integrity: sha512-BxAKBWmIbrDgrokdGZH1IgkIk/5mMHDreLDmCJ0qpyJaAteP8NvMhkwr/ZCQNqNH97bw/dANTE9PDzqwJghfMQ==}
+  vite@7.2.4:
+    resolution: {integrity: sha512-NL8jTlbo0Tn4dUEXEsUg8KeyG/Lkmc4Fnzb8JXN/Ykm9G4HNImjtABMJgkQoVjOBN/j2WAwDTRytdqJbZsah7w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -5242,10 +5242,10 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.47.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/utils': 5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
@@ -5427,7 +5427,7 @@ snapshots:
       '@typescript-eslint/types': 8.47.0
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react@5.1.1(vite@7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))':
+  '@vitejs/plugin-react@5.1.1(vite@7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
@@ -5435,7 +5435,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.47
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
+      vite: 7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -5465,13 +5465,13 @@ snapshots:
       chai: 6.2.1
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.10(vite@7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))':
+  '@vitest/mocker@4.0.10(vite@7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 4.0.10
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
+      vite: 7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
 
   '@vitest/pretty-format@4.0.10':
     dependencies:
@@ -6138,7 +6138,7 @@ snapshots:
       '@babel/core': 7.25.2
       '@babel/eslint-parser': 7.25.1(@babel/core@7.25.2)(eslint@9.39.1(jiti@2.4.1))
       '@rushstack/eslint-patch': 1.10.4
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/parser': 5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
       babel-preset-react-app: 10.0.1
       confusing-browser-globals: 1.0.11
@@ -6218,7 +6218,7 @@ snapshots:
       '@typescript-eslint/experimental-utils': 5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
       eslint: 9.39.1(jiti@2.4.1)
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.4.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -7677,7 +7677,7 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  vite@7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1):
+  vite@7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.5.0(picomatch@4.0.3)
@@ -7694,7 +7694,7 @@ snapshots:
   vitest@4.0.10(@types/node@22.5.0)(jiti@2.4.1)(jsdom@27.2.0(postcss@8.5.6))(yaml@2.8.1):
     dependencies:
       '@vitest/expect': 4.0.10
-      '@vitest/mocker': 4.0.10(vite@7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))
+      '@vitest/mocker': 4.0.10(vite@7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1))
       '@vitest/pretty-format': 4.0.10
       '@vitest/runner': 4.0.10
       '@vitest/snapshot': 4.0.10
@@ -7711,7 +7711,7 @@ snapshots:
       tinyexec: 0.3.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.2.2(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
+      vite: 7.2.4(@types/node@22.5.0)(jiti@2.4.1)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.5.0
