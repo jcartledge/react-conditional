@@ -20,7 +20,7 @@ importers:
         version: 20.4.3
       '@eslint/eslintrc':
         specifier: ^3.1.0
-        version: 3.3.4
+        version: 3.3.5
       '@eslint/js':
         specifier: ^9.19.0
         version: 9.39.3
@@ -1133,8 +1133,8 @@ packages:
     resolution: {integrity: sha512-yL/sLrpmtDaFEiUj1osRP4TI2MDz1AddJL+jZ7KSqvBuliN4xqYY54IfdN8qD8Toa6g1iloph1fxQNkjOxrrpQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/eslintrc@3.3.4':
-    resolution: {integrity: sha512-4h4MVF8pmBsncB60r0wSJiIeUKTSD4m7FmTFThG8RHlsg9ajqckLm9OraguFGZE4vVdpiI1Q4+hFnisopmG6gQ==}
+  '@eslint/eslintrc@3.3.5':
+    resolution: {integrity: sha512-4IlJx0X0qftVsN5E+/vGujTRIFtwuLbNsVUe7TO6zYPDR1O6nFwvwhIKEKSrl6dZchmYBITazxKoUYOjdtjlRg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/js@9.39.3':
@@ -1743,8 +1743,8 @@ packages:
   brace-expansion@2.0.2:
     resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
 
-  brace-expansion@5.0.3:
-    resolution: {integrity: sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA==}
+  brace-expansion@5.0.4:
+    resolution: {integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==}
     engines: {node: 18 || 20 || >=22}
 
   braces@3.0.3:
@@ -4799,7 +4799,7 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/eslintrc@3.3.4':
+  '@eslint/eslintrc@3.3.5':
     dependencies:
       ajv: 6.14.0
       debug: 4.4.3
@@ -5527,7 +5527,7 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  brace-expansion@5.0.3:
+  brace-expansion@5.0.4:
     dependencies:
       balanced-match: 4.0.4
 
@@ -6106,7 +6106,7 @@ snapshots:
       '@eslint/config-array': 0.21.1
       '@eslint/config-helpers': 0.4.2
       '@eslint/core': 0.17.0
-      '@eslint/eslintrc': 3.3.4
+      '@eslint/eslintrc': 3.3.5
       '@eslint/js': 9.39.3
       '@eslint/plugin-kit': 0.4.1
       '@humanfs/node': 0.16.6
@@ -6744,7 +6744,7 @@ snapshots:
 
   minimatch@10.2.4:
     dependencies:
-      brace-expansion: 5.0.3
+      brace-expansion: 5.0.4
 
   minimatch@3.1.2:
     dependencies:
