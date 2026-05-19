@@ -29,10 +29,10 @@ importers:
         version: 6.9.1
       '@testing-library/react':
         specifier: 16.3.2
-        version: 16.3.2(@testing-library/dom@10.0.0)(@types/react-dom@18.2.6)(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        version: 16.3.2(@testing-library/dom@10.0.0)(@types/react-dom@18.2.6)(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@types/react':
-        specifier: 19.2.14
-        version: 19.2.14
+        specifier: 19.2.15
+        version: 19.2.15
       '@vitejs/plugin-react':
         specifier: 6.0.2
         version: 6.0.2(vite@8.0.13(@types/node@22.5.0)(esbuild@0.27.1)(jiti@2.4.1)(yaml@2.8.3))
@@ -1431,8 +1431,8 @@ packages:
   '@types/react-dom@18.2.6':
     resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
 
-  '@types/react@19.2.14':
-    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
+  '@types/react@19.2.15':
+    resolution: {integrity: sha512-eRwcGNHve+E8qtEQSSRl6urh+rFop4v8gm6O8rGv25CodbvFdLjA1vVQ1KkiFE0w0UPOnb8tDiFKL5lp0rtY5Q==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -5103,14 +5103,14 @@ snapshots:
       picocolors: 1.1.1
       redent: 3.0.0
 
-  '@testing-library/react@16.3.2(@testing-library/dom@10.0.0)(@types/react-dom@18.2.6)(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@testing-library/react@16.3.2(@testing-library/dom@10.0.0)(@types/react-dom@18.2.6)(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
     dependencies:
       '@babel/runtime': 7.28.6
       '@testing-library/dom': 10.0.0
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.15
       '@types/react-dom': 18.2.6
 
   '@tybys/wasm-util@0.10.1':
@@ -5146,10 +5146,10 @@ snapshots:
 
   '@types/react-dom@18.2.6':
     dependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.15
     optional: true
 
-  '@types/react@19.2.14':
+  '@types/react@19.2.15':
     dependencies:
       csstype: 3.2.3
 
@@ -5157,10 +5157,10 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@8.59.4(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.59.4(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/utils': 5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
@@ -6032,7 +6032,7 @@ snapshots:
       '@babel/core': 7.25.2
       '@babel/eslint-parser': 7.25.1(@babel/core@7.25.2)(eslint@9.39.4(jiti@2.4.1))
       '@rushstack/eslint-patch': 1.10.4
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@8.59.4(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/parser': 5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
       babel-preset-react-app: 10.0.1
       confusing-browser-globals: 1.0.11
@@ -6112,7 +6112,7 @@ snapshots:
       '@typescript-eslint/experimental-utils': 5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
       eslint: 9.39.4(jiti@2.4.1)
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@8.59.4(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
