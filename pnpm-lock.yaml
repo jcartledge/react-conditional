@@ -43,8 +43,8 @@ importers:
         specifier: 7.1.0
         version: 7.1.0
       c8:
-        specifier: 11.0.0
-        version: 11.0.0
+        specifier: 12.0.0
+        version: 12.0.0
       eslint:
         specifier: 9.39.5
         version: 9.39.5(jiti@2.4.1)
@@ -1776,9 +1776,9 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  c8@11.0.0:
-    resolution: {integrity: sha512-e/uRViGHSVIJv7zsaDKM7VRn2390TgHXqUSvYwPHBQaU6L7E9L0n9JbdkwdYPvshDT0KymBmmlwSpms3yBaMNg==}
-    engines: {node: 20 || >=22}
+  c8@12.0.0:
+    resolution: {integrity: sha512-4zpJvrd1nKWutnnKC2pXkFmb6iM1l+ffN//o1CzlTNwW7GSOs9a1xrLqkC48nU8oEkjmPZLPiwMsIaOvoF4Pqg==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=23}
     hasBin: true
     peerDependencies:
       monocart-coverage-reports: ^2
@@ -5134,10 +5134,10 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@8.64.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.64.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/utils': 5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
@@ -5599,7 +5599,7 @@ snapshots:
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
-  c8@11.0.0:
+  c8@12.0.0:
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@istanbuljs/schema': 0.1.3
@@ -5610,7 +5610,7 @@ snapshots:
       istanbul-reports: 3.2.0
       test-exclude: 8.0.0
       v8-to-istanbul: 9.3.0
-      yargs: 17.7.2
+      yargs: 18.0.0
       yargs-parser: 21.1.1
 
   call-bind-apply-helpers@1.0.2:
@@ -5994,7 +5994,7 @@ snapshots:
       '@babel/core': 7.25.2
       '@babel/eslint-parser': 7.25.1(@babel/core@7.25.2)(eslint@9.39.5(jiti@2.4.1))
       '@rushstack/eslint-patch': 1.10.4
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@8.64.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
       '@typescript-eslint/parser': 5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
       babel-preset-react-app: 10.0.1
       confusing-browser-globals: 1.0.11
@@ -6074,7 +6074,7 @@ snapshots:
       '@typescript-eslint/experimental-utils': 5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
       eslint: 9.39.5(jiti@2.4.1)
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@8.64.0(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
